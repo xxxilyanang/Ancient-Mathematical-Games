@@ -19,7 +19,7 @@
 - **过场动画**：利用 `Timeline` 插件编排2D四格漫画，实现了电影化的开场叙事。
 - **界面逻辑**：通过状态机模式管理复杂的UI面板切换与动画播放，保证了界面的流畅与稳定。
 
-![](.\screenshots\jianzheng.gif)
+![](./screenshots/jianzheng.gif)
 
 ### 2. 角色与相机控制
 
@@ -30,13 +30,13 @@
 
 - **物理交互**：广泛使用 `Rigidbody` 和 `Collider` 组件实现场景物体的物理模拟与精确的碰撞检测，是关卡解密的核心。
 
-![](.\screenshots\huanfang.gif)
+![](screenshots/huanfang.gif)
 
 - **视觉特效 (VFX)**：
   - **自定义着色器 (Shader)**：为水面、特殊光照及物体切割等效果编写了自定义Shader，提升了视觉表现力。
   - **人物透视**：实现了当角色被场景物体遮挡时，能够以轮廓线或半透明方式显示的效果，优化了玩家体验。
 
-![](.\screenshots\fengjing.gif)
+![](./screenshots/fengjing.gif)
 
 ### 4. 场景设计与优化
 
@@ -48,7 +48,7 @@
   - **摄像机剪裁 (Frustum Culling)**：仅渲染摄像机视锥体内的物体。
   - **遮挡剔除 (Occlusion Culling)**：不渲染被其他不透明物体完全遮挡的物体，有效降低了渲染开销，提升了游戏帧率。
 
-![](.\screenshots\tichu.gif)
+![](./screenshots/tichu.gif)
 
 ### 5. NPC AI
 
